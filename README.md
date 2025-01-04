@@ -12,7 +12,7 @@ This study makes use of the Kaggle Credit Card Fraud Detection dataset, which wa
 
 The dataset includes 284,807 records of anonymised transaction data from September 2013, as well as 31 features such as anonymised transaction details and transaction amounts. The dataset is highly unbalanced, the positive class (frauds) account for 0.172% of all transactions.
 The primary goal of acquiring this data was to improve fraud detection systems by analysing credit card transactions and identifying fraudulent activity. 
-
+Dataset Link: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud.
 
 The Flow chart of this 
 ![image](https://github.com/user-attachments/assets/f4f8723a-7259-4d5e-85c0-2a167057ff5e)
