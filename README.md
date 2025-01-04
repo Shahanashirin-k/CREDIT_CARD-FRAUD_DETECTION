@@ -19,17 +19,17 @@ Dataset Link: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud.
 
 ![image](https://github.com/user-attachments/assets/f4f8723a-7259-4d5e-85c0-2a167057ff5e)
 
-##1. Data Prerocessing: 
- . Log transformation was applied to the Amount feature to address skewness and normalize its distribution.
+## 1.Data Prerocessing: 
+ <br>Log transformation was applied to the Amount feature to address skewness and normalize its distribution.</br>
  **Feature Engineeirng**: 
-  . Extracted the Hour feature from the Time variable to capture the time of day when transactions occurred.
-  . Created Amount_Category to group transaction amounts into bins for exploratory analysis.
-  . Dropped unnecessary columns (Time, Amount, Amount_Category) to focus on engineered features.
+   <br>Extracted the Hour feature from the Time variable to capture the time of day when transactions occurred.</br>
+   <br>Created Amount_Category to group transaction amounts into bins for exploratory analysis.</br>
+   <br>Dropped unnecessary columns (Time, Amount, Amount_Category) to focus on engineered features.</br>
   
-##2.Data Splitting And Oversampling:
-  . Split the data into training (70%) and testing (30%) sets.
-  . Applied SMOTE (Synthetic Minority Oversampling Technique) to address the class imbalance in the training dataset, creating a balanced representation of fraudulent and non-fraudulent transactions.
-## Model Training: 
+## 2.Data Splitting And Oversampling:
+  Split the data into training (70%) and testing (30%) sets.
+  Applied SMOTE (Synthetic Minority Oversampling Technique) to address the class imbalance in the training dataset, creating a balanced representation of fraudulent and non-fraudulent transactions.
+## 3.Model Training: 
 
 
 
