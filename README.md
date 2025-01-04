@@ -1,4 +1,4 @@
-# CREDIT_CARD-FRAUD_DETECTION
+# CREDIT CARD FRAUD DETECTION: A Feature Engineering Approach.
 ## Project Overview:
 
 **Research Question:**  “How do traditional machine learning models and anomaly detection models perform in detecting fraudulent credit card transactions within a feature-engineered environment?”. 
@@ -12,12 +12,24 @@ This study makes use of the Kaggle Credit Card Fraud Detection dataset, which wa
 
 The dataset includes 284,807 records of anonymised transaction data from September 2013, as well as 31 features such as anonymised transaction details and transaction amounts. The dataset is highly unbalanced, the positive class (frauds) account for 0.172% of all transactions.
 The primary goal of acquiring this data was to improve fraud detection systems by analysing credit card transactions and identifying fraudulent activity. 
+
 Dataset Link: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud.
 
-The Flow chart of this 
+# Methodology:
+
 ![image](https://github.com/user-attachments/assets/f4f8723a-7259-4d5e-85c0-2a167057ff5e)
 
-•	This process involves data loading, EDA, preprocessing & feature engineering. The dataset is split (70% training, 30% testing) after setting features (x) for training and targets (y) for testing, with SMOTE applied to balance the training data. Traditional machine learning and anomaly detection models are trained separately and evaluated, concluding with a performance analysis.
-•	SMOTE is used in Traditional machine learning models to balance classes and in-crease accuracy. Anomaly detection algorithms do not require SMOTE or data sepa-ration because they focus on recognising outliers from the entire dataset.
+##1. Data Prerocessing: 
+ . Log transformation was applied to the Amount feature to address skewness and normalize its distribution.
+ **Feature Engineeirng**: 
+  . Extracted the Hour feature from the Time variable to capture the time of day when transactions occurred.
+  . Created Amount_Category to group transaction amounts into bins for exploratory analysis.
+  . Dropped unnecessary columns (Time, Amount, Amount_Category) to focus on engineered features.
+  
+##2.Data Splitting And Oversampling:
+  . Split the data into training (70%) and testing (30%) sets.
+  . Applied SMOTE (Synthetic Minority Oversampling Technique) to address the class imbalance in the training dataset, creating a balanced representation of fraudulent and non-fraudulent transactions.
+## Model Training: 
+
 
 
