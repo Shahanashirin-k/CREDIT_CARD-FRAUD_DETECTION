@@ -35,19 +35,19 @@ Dataset Link: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud.
 **Traditional Machine Learning:-**<br>
 1. Logistic Reggression
 2. Random Forest
-3. XGBoost<br>
+3. XGBoost
 **Anomaly Detection Models:-**<br>
 4. Isolation Forest
 5. One-Class SVM
 6. Autoencoder<br>
 
-## 4.Evalaution MEtrics:
+## 4.Evalaution Metrics:
 Models were evaluated using metrics such as:<br>
 1. Classification Report: Precision, recall, F1-score and Accuracy
 2. AUC-ROC (Area Under the Receiver Operating Characteristic Curve): To measure the ability to distinguish between classes.
 3. Confusion matrices were used to visually interpret performance across different classes.<br>
 
-## 5. Conclusion:
+## 5. Insight:
 
 ![image](https://github.com/user-attachments/assets/f79cb2ed-3c21-47df-a854-b2761265fcdf)
 
