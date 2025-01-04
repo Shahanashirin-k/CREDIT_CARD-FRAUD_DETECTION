@@ -22,9 +22,9 @@ Dataset Link: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud.
 ## 1.Data Prerocessing: 
  <br>Log transformation was applied to the Amount feature to address skewness and normalize its distribution.</br>
  **Feature Engineeirng**: 
-   <br>Extracted the Hour feature from the Time variable to capture the time of day when transactions occurred.</br>
-   <br>Created Amount_Category to group transaction amounts into bins for exploratory analysis.</br>
-   <br>Dropped unnecessary columns (Time, Amount, Amount_Category) to focus on engineered features.</br>
+   <br>Extracted the Hour feature from the Time variable to capture the time of day when transactions occurred.
+   <br>Created Amount_Category to group transaction amounts into bins for exploratory analysis.
+   <br>Dropped unnecessary columns (Time, Amount, Amount_Category) to focus on engineered features.
   
 ## 2.Data Splitting And Oversampling:
   Split the data into training (70%) and testing (30%) sets.
