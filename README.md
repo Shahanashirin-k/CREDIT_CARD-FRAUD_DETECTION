@@ -1,4 +1,5 @@
-# CREDIT CARD FRAUD DETECTION: A Feature Engineering Approach.
+# **CREDIT CARD FRAUD DETECTION: A Feature Engineering Approach.**
+
 ## Project Overview:
 
 **Research Question:**  “How do traditional machine learning models and anomaly detection models perform in detecting fraudulent credit card transactions within a feature-engineered environment?”. 
@@ -28,6 +29,8 @@ Dataset Link: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud.
   
 ## 2.Data Splitting And Oversampling:<br>
   Split the data into training (70%) and testing (30%) sets.<br>
+
+  
   **Handiling Imbalanced Data:-** <br>
   Applied SMOTE (Synthetic Minority Oversampling Technique) to address the class imbalance in the training dataset, creating a balanced representation of fraudulent and non-fraudulent transactions.<br>
   
@@ -35,7 +38,8 @@ Dataset Link: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud.
 **Traditional Machine Learning:-**<br>
 1. Logistic Reggression
 2. Random Forest
-3. XGBoost
+3. XGBoost<br>
+   
 **Anomaly Detection Models:-**<br>
 4. Isolation Forest
 5. One-Class SVM
